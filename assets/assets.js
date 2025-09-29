@@ -39,6 +39,9 @@ import myLogo from './myLogo.png';
 import myLogo2 from './myLogo2.png';
 import my_profile_img from './my-profile-img.png';
 import my_user_img from './my_user_img.png';
+import github_icon from './github_icon.png';
+import linkedin_icon from './linkedin_icon.png';
+import leetcode_icon from './leetcode_icon.png';
 
 
 export const assets = {
@@ -82,7 +85,10 @@ export const assets = {
     myLogo,
     myLogo2,
     my_profile_img,
-    my_user_img
+    my_user_img,
+    github_icon,
+    linkedin_icon,
+    leetcode_icon,
 
 };
 
@@ -110,10 +116,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Frontend development', description: 'Frontend development is the process of building, programming...', link: '' },
+    { icon: assets.mobile_icon, title: 'Backend development', description: 'Backend development involves creating Backend API for...', link: '' },
+    { icon: assets.ui_icon, title: 'Database Development', description: 'Database development is the process of building, programming...', link: '' },
+    { icon: assets.graphics_icon, title: 'System Design', description: 'System design involves designing the overall architecture...', link: '' },
 ]
 
 export const infoList = [
