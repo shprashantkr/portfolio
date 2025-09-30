@@ -15,7 +15,7 @@ export default function Home() {
     if (
       localStorage.theme === "dark" ||
       (!("theme" in localStorage) &&
-        windowindow.matchMedia("(prefers-color-scheme: dark)").matches)
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
       setIsDarkMode(true);
     } else {
