@@ -92,7 +92,7 @@ const Contact = ({ isDarkMode }) => {
         </div>
         <motion.textarea
           initial={{ opacity: 0, y: 100 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.3 }}
           className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6  dark:bg-darkHover/30 dark:border-white/90"
           rows="6"
