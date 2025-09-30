@@ -1,6 +1,17 @@
+/* globals.css */
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
 
-*{
-  font-family: Outfit;
+
+@theme {
+  /* Font Family - Creates utility classes like font-Outfit */
+  --font-Outfit: Outfit, sans-serif;
+  --font-Ovo: Ovo, serif;
+  
+  /* Custom Colors - Creates utility classes like bg-lightHover */
+  --color-lightHover: #fcf4ff;
+  --color-darkHover: #2a004a;
+  --color-darkTheme: #11001F;
 }
+
